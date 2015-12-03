@@ -15,12 +15,12 @@
        <repository>
             <id>mule-ee-releases</id>
             <name>Mule Release Repository</name>                                               
-            <url>https://repository-master.mulesoft.org/nexus/content/repositories/releases</url>
+            <url>http://dev.ifactornotifi.com/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>mule-snapshots</id>
             <name>Mule Snapshot Repository</name>
-            <url>https://repository-master.mulesoft.org/nexus/content/repositories/snapshots/</url>
+            <url>http://dev.ifactornotifi.com/nexus/content/repositories/snapshots/</url>
             <uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
 
@@ -108,7 +108,7 @@
         <repository>
             <id>mulesoft-releases</id>
             <name>MuleSoft Releases Repository</name>
-            <url>https://repository.mulesoft.org/releases/</url>
+            <url>http://dev.ifactornotifi.com/nexus/content/groups/public</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
