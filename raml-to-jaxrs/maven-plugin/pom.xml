@@ -87,14 +87,14 @@
 	</build>
 	<description>RAML JAXRS</description>
     <scm>
-		<url>https://github.com/mulesoft/raml-for-jax-rs.git</url>
-		<connection>https://github.com/mulesoft/raml-for-jax-rs.git</connection>
-		<developerConnection>Pavel Petrochenko(petrochenko.pavel.a@gmail.com)</developerConnection>
+		<url>https://github.com/iFactor/raml-for-jax-rs.git</url>
+		<connection>https://github.com/iFactor/raml-for-jax-rs.git</connection>
+		<developerConnection>scm:git:git@github.com:iFactor/raml-for-jax-rs.git</developerConnection>
 	</scm>
 	<organization>
 		<name>Mulesoft</name>
 		<url>http://mulesoft.com</url>
 	</organization>
-	<url>https://github.com/mulesoft/raml-for-jax-rs</url>
+	<url>https://github.com/iFactor/raml-for-jax-rs</url>
 
 </project>
