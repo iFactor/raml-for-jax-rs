@@ -1,11 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.raml</groupId>
     <artifactId>raml-jaxrs-codegen-parent</artifactId>
     <packaging>pom</packaging>
     <name>RAML JAX-RS Codegen</name>
-<version>1.3.4-SNAPSHOT</version>
+<version>1.3.4-ifactorrelease-SNAPSHOT</version>
     <modules>
         <module>core</module>
         <module>maven-plugin</module>
@@ -13,12 +12,12 @@
     </modules>
  <distributionManagement>
        <repository>
-            <id>mule-ee-releases</id>
+            <id>energysuite-nexus</id>
             <name>Mule Release Repository</name>                                               
             <url>http://dev.ifactornotifi.com/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>mule-snapshots</id>
+            <id>energysuite-nexus</id>
             <name>Mule Snapshot Repository</name>
             <url>http://dev.ifactornotifi.com/nexus/content/repositories/snapshots/</url>
             <uniqueVersion>false</uniqueVersion>
@@ -130,7 +129,8 @@
 		<url>https://github.com/iFactor/raml-for-jax-rs.git</url>
 		<connection>https://github.com/iFactor/raml-for-jax-rs.git</connection>
 		<developerConnection>scm:git:git@github.com:iFactor/raml-for-jax-rs.git</developerConnection>
-	</scm>
+	  <tag>HEAD</tag>
+  </scm>
 	<organization>
 		<name>Mulesoft</name>
 		<url>http://mulesoft.com</url>
