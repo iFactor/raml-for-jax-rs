@@ -105,7 +105,7 @@
 
     <repositories>
         <repository>
-            <id>mulesoft-releases</id>
+            <id>energysuite-nexus</id>
             <name>MuleSoft Releases Repository</name>
             <url>http://dev.ifactornotifi.com/nexus/content/groups/public</url>
             <snapshots>
